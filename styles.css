@@ -102,3 +102,11 @@ li{
 .clear:hover{
     color: lightcoral;
 }
+.to-do-list-item{
+
+    transition: all 0.3s ease-out;
+}
+.to-do-list-item-fall{
+    transform: translateY(12rem) rotateZ(10deg);
+    opacity: 0;
+}
